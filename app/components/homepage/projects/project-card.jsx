@@ -53,12 +53,17 @@ function ProjectCard({ project }) {
           </div>
           <div>
             <span className="ml-4 lg:ml-8 mr-2 text-white">myRole:</span>
-            <span className="text-orange-400">{project.role}</span>
+            <span className="text-amber-300">{project.role}</span>
             <span className="text-gray-400">,</span>
           </div>
           <div className="ml-4 lg:ml-8 mr-2">
-            <span className="text-white">Description:</span>
+            <span className="text-white">description:</span>
             <span className="text-cyan-400">{' ' + project.description}</span>
+            <span className="text-gray-400">,</span>
+          </div>
+          <div className="ml-4 lg:ml-8 mr-2">
+            <span className="text-white">gitRepository: </span>
+            <span className="text-amber-300 "><a className='hover:underline hover:text-orange-400 underline-offset-4' href={project.demo}>{'' + project.code}</a></span>
             <span className="text-gray-400">,</span>
           </div>
           <div><span className="text-gray-400">{`};`}</span></div>

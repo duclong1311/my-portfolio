@@ -1,20 +1,14 @@
 export const educations = [
   {
     id: 1,
-    title: "Bachelor Degree",
-    duration: "2020 - Present",
-    institution: "National University of Bangladesh",
+    title: "HANOI UNIVERSITY OF INDUSTRY",
+    duration: "09/2020 - 09/2024",
+    institution: "Bachelor Degree of Information System",
   },
   {
     id: 2,
-    title: "Higher Secondary Certificate",
-    duration: "2018 - 2020",
-    institution: "Noakhali Islamia Kamil Madrasah",
-  },
-  {
-    id: 3,
-    title: "Secondary School Certificate",
-    duration: "2008 - 2018",
-    institution: "Baitus Saif Islamia Madrasah",
+    title: "CODEGYM PROGRAMER TRAINING CENTER",
+    duration: "06/2024 - 12/2024",
+    institution: "Frontend Web Development with React Certificate",
   }
 ]
