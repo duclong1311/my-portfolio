@@ -7,6 +7,11 @@ import Experience from "./components/homepage/experience";
 import HeroSection from "./components/homepage/hero-section";
 import Projects from "./components/homepage/projects";
 import Skills from "./components/homepage/skills";
+import dynamic from "next/dynamic";
+
+const personalDataDynamic = dynamic(() => import("@/utils/data/personal-data"), {
+  ssr: false,
+});
 
 async function getData() {
   const res = await fetch(`https://dev.to/api/articles?username=${personalData.devUsername}`)
