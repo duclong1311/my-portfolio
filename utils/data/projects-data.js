@@ -5,8 +5,8 @@ export const projectsData = [
     {
         id: 1,
         name: 'Smart Coffee Management',
-        description: "Coffee Smart System is a modern web application designed to enhance the management and operation of coffee shops. It provides an intuitive and efficient platform for managing orders, tracking inventory, and monitoring sales performance. The project leverages advanced web technologies to deliver a seamless experience for coffee shop owners, staff, and customers.",
-        tools: ['ReactJS', 'React Router', 'JSON Server', 'TailwindCSS', 'Redux/ Context API', 'JWT', 'Axios', 'Lodash', 'Git & Github', 'Postman'],
+        description: "Me and my team built an AI-powered financial mobile application. I have developed API using Express, Typescript, OpenAI, AWS, and MongoDB. Used OTP via AWS SES, Google, and Facebook for the authentication system. Built AI assistants using OpenAI's latest model and trained using our dataset. Voice messages are converted to text using AWS Transcribe. The app fetches data from Google Sheets and generates a PDF term sheet, sent via AWS SES.",
+        tools: ['Express', 'MongoDB', 'OpenAI API', 'AWS SES', 'AWS S3', 'Node Mailer', 'Joi', 'Puppeteer', 'EC2', 'PM2', 'Nginx'],
         role: 'Fullstack Developer',
         code: 'smart-coffee-management',
         demo: 'https://github.com/team1-c05wfe/coffee-smart-system.git',
@@ -15,8 +15,8 @@ export const projectsData = [
     {
         id: 2,
         name: 'Doing Quiz Online App',
-        description: 'Online Exam System is a web-based application designed to facilitate online examinations for educational institutions, training centers, and corporate environments. The platform streamlines the process of creating, administering, and evaluating exams, ensuring a seamless experience for both examiners and examinees.',
-        tools: ['ReactJS', 'Tailwind CSS', "Node.js", "MySQL", "Postman", "Git & GitHub"],
+        description: 'I have designed and developed a full-stack web app for 2Expedition, a travel agency in Armenia. I created the UI using NextJS, Typescript, MUI, TailwindCSS, Google Maps, Sun-Editor, and React Slick. The app supports multiple languages and currencies. I developed the API using NestJS, Typescript, MySQL, TypeORM, AWS, and Nodemailer. I deployed the front-end app to AWS Amplify and the back-end app to AWS EC2.',
+        tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"],
         role: 'Frontend Developer',
         code: 'doing-quiz-online',
         demo: 'https://github.com/duclong1311/online-exam',
@@ -25,8 +25,8 @@ export const projectsData = [
     {
         id: 3,
         name: 'Human Resources Management',
-        description: 'HR Management is an application designed to streamline human resource management for organizations. The project enables efficient management of employee data, attendance tracking, and performance monitoring, providing a centralized and user-friendly platform for HR teams.',
-        tools: ['C#', '.Net', 'WPF', 'MVVM', 'ItextSharp', 'MySQL'],
+        description: 'My team built an AI-based real estate app using Replicate API and OpenAI. We used Express, Typescript, OpenAI, Replicate, Stripe, and Mongoose to develop the API. We utilized NextJS, Formik, TailwindCSS, and other npm libraries for the UI. We have trained multiple AI assistants using the latest GPT model and integrated Replicate API for image processing. We added role-based auth, subscription plans, Cron job scheduling, and payment integration with Stripe.',
+        tools: ['React', 'Bootstrap', 'SCSS', 'Stripe', 'Express', 'TypeScript', 'MongoDB', 'Azure Blob', 'OpenAI API', 'Replicate AI', 'Cronjob', 'JWT'],
         code: 'hr-management',
         role: 'Frontend Developer',
         demo: 'https://github.com/duclong1311/hr-management.git',
